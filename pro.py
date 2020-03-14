@@ -2,7 +2,7 @@ from functools import reduce                                                    
 
 print("Enter the elements of the sequence")                                           #input from the user
 list_of_nums = list(map(int,input().split()))                                         #user enters the numbers with spacing
-print(f"Your list: {list_of_nums}")           
+print(f"input {list_of_nums}")           
 
 result = []                                                                           #empty list
 
@@ -16,4 +16,4 @@ for i in list_of_nums:                                                          
     list_of_nums.insert(c,i)                                                          #inserts the removed iteration i
     c += 1                                                                            #incrementation
 
-print(f"Your answer: {result}")                                                       #final output answer
+print(f"output {result}")                                                             #final output answer
